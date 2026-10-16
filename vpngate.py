@@ -101,7 +101,7 @@ NODES_URL = os.environ.get("NODES_URL", "https://zwj1976.github.io/gate/nodes.tx
 # ---------------------------------------------------------------------------
 _section = None
 
-def log(section, msg=""):
+def log(section, msg=""):zwj1976
     global _section
     if section != _section:
         print(f"========== {section} ==========")
